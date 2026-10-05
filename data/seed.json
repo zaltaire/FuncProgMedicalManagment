@@ -1,0 +1,810 @@
+{
+  "patients": [
+    {
+      "id": "p1",
+      "name": "Patient 1",
+      "contact": "555-0001"
+    },
+    {
+      "id": "p2",
+      "name": "Patient 2",
+      "contact": "555-0002"
+    },
+    {
+      "id": "p3",
+      "name": "Patient 3",
+      "contact": "555-0003"
+    },
+    {
+      "id": "p4",
+      "name": "Patient 4",
+      "contact": "555-0004"
+    },
+    {
+      "id": "p5",
+      "name": "Patient 5",
+      "contact": "555-0005"
+    },
+    {
+      "id": "p6",
+      "name": "Patient 6",
+      "contact": "555-0006"
+    },
+    {
+      "id": "p7",
+      "name": "Patient 7",
+      "contact": "555-0007"
+    },
+    {
+      "id": "p8",
+      "name": "Patient 8",
+      "contact": "555-0008"
+    },
+    {
+      "id": "p9",
+      "name": "Patient 9",
+      "contact": "555-0009"
+    },
+    {
+      "id": "p10",
+      "name": "Patient 10",
+      "contact": "555-0010"
+    },
+    {
+      "id": "p11",
+      "name": "Patient 11",
+      "contact": "555-0011"
+    },
+    {
+      "id": "p12",
+      "name": "Patient 12",
+      "contact": "555-0012"
+    },
+    {
+      "id": "p13",
+      "name": "Patient 13",
+      "contact": "555-0013"
+    },
+    {
+      "id": "p14",
+      "name": "Patient 14",
+      "contact": "555-0014"
+    },
+    {
+      "id": "p15",
+      "name": "Patient 15",
+      "contact": "555-0015"
+    },
+    {
+      "id": "p16",
+      "name": "Patient 16",
+      "contact": "555-0016"
+    },
+    {
+      "id": "p17",
+      "name": "Patient 17",
+      "contact": "555-0017"
+    },
+    {
+      "id": "p18",
+      "name": "Patient 18",
+      "contact": "555-0018"
+    },
+    {
+      "id": "p19",
+      "name": "Patient 19",
+      "contact": "555-0019"
+    },
+    {
+      "id": "p20",
+      "name": "Patient 20",
+      "contact": "555-0020"
+    },
+    {
+      "id": "p21",
+      "name": "Patient 21",
+      "contact": "555-0021"
+    },
+    {
+      "id": "p22",
+      "name": "Patient 22",
+      "contact": "555-0022"
+    },
+    {
+      "id": "p23",
+      "name": "Patient 23",
+      "contact": "555-0023"
+    },
+    {
+      "id": "p24",
+      "name": "Patient 24",
+      "contact": "555-0024"
+    }
+  ],
+  "doctors": [
+    {
+      "id": "d1",
+      "name": "Doctor 1",
+      "specialty": "Cardiology"
+    },
+    {
+      "id": "d2",
+      "name": "Doctor 2",
+      "specialty": "Neurology"
+    },
+    {
+      "id": "d3",
+      "name": "Doctor 3",
+      "specialty": "Pediatrics"
+    },
+    {
+      "id": "d4",
+      "name": "Doctor 4",
+      "specialty": "Cardiology"
+    },
+    {
+      "id": "d5",
+      "name": "Doctor 5",
+      "specialty": "Pediatrics"
+    },
+    {
+      "id": "d6",
+      "name": "Doctor 6",
+      "specialty": "Cardiology"
+    },
+    {
+      "id": "d7",
+      "name": "Doctor 7",
+      "specialty": "Pediatrics"
+    },
+    {
+      "id": "d8",
+      "name": "Doctor 8",
+      "specialty": "Cardiology"
+    },
+    {
+      "id": "d9",
+      "name": "Doctor 9",
+      "specialty": "Neurology"
+    },
+    {
+      "id": "d10",
+      "name": "Doctor 10",
+      "specialty": "Pediatrics"
+    },
+    {
+      "id": "d11",
+      "name": "Doctor 11",
+      "specialty": "Cardiology"
+    },
+    {
+      "id": "d12",
+      "name": "Doctor 12",
+      "specialty": "Neurology"
+    },
+    {
+      "id": "d13",
+      "name": "Doctor 13",
+      "specialty": "Cardiology"
+    },
+    {
+      "id": "d14",
+      "name": "Doctor 14",
+      "specialty": "Neurology"
+    },
+    {
+      "id": "d15",
+      "name": "Doctor 15",
+      "specialty": "Cardiology"
+    },
+    {
+      "id": "d16",
+      "name": "Doctor 16",
+      "specialty": "Pediatrics"
+    },
+    {
+      "id": "d17",
+      "name": "Doctor 17",
+      "specialty": "Pediatrics"
+    },
+    {
+      "id": "d18",
+      "name": "Doctor 18",
+      "specialty": "Pediatrics"
+    },
+    {
+      "id": "d19",
+      "name": "Doctor 19",
+      "specialty": "Pediatrics"
+    },
+    {
+      "id": "d20",
+      "name": "Doctor 20",
+      "specialty": "Cardiology"
+    },
+    {
+      "id": "d21",
+      "name": "Doctor 21",
+      "specialty": "Neurology"
+    },
+    {
+      "id": "d22",
+      "name": "Doctor 22",
+      "specialty": "Neurology"
+    },
+    {
+      "id": "d23",
+      "name": "Doctor 23",
+      "specialty": "Neurology"
+    },
+    {
+      "id": "d24",
+      "name": "Doctor 24",
+      "specialty": "Neurology"
+    }
+  ],
+  "services": [
+    {
+      "code": "s1",
+      "title": "Service 1",
+      "price": 147.17,
+      "children": []
+    },
+    {
+      "code": "s2",
+      "title": "Service 2",
+      "price": 360.0,
+      "children": []
+    },
+    {
+      "code": "s3",
+      "title": "Service 3",
+      "price": 198.83,
+      "children": []
+    },
+    {
+      "code": "s4",
+      "title": "Service 4",
+      "price": 61.2,
+      "children": []
+    },
+    {
+      "code": "s5",
+      "title": "Service 5",
+      "price": 248.1,
+      "children": []
+    },
+    {
+      "code": "s6",
+      "title": "Service 6",
+      "price": 223.8,
+      "children": []
+    },
+    {
+      "code": "s7",
+      "title": "Service 7",
+      "price": 487.94,
+      "children": []
+    },
+    {
+      "code": "s8",
+      "title": "Service 8",
+      "price": 363.95,
+      "children": []
+    },
+    {
+      "code": "s9",
+      "title": "Service 9",
+      "price": 365.44,
+      "children": []
+    },
+    {
+      "code": "s10",
+      "title": "Service 10",
+      "price": 468.21,
+      "children": []
+    },
+    {
+      "code": "s11",
+      "title": "Service 11",
+      "price": 240.73,
+      "children": []
+    },
+    {
+      "code": "s12",
+      "title": "Service 12",
+      "price": 296.86,
+      "children": []
+    },
+    {
+      "code": "s13",
+      "title": "Service 13",
+      "price": 64.11,
+      "children": []
+    },
+    {
+      "code": "s14",
+      "title": "Service 14",
+      "price": 83.12,
+      "children": []
+    },
+    {
+      "code": "s15",
+      "title": "Service 15",
+      "price": 398.7,
+      "children": []
+    },
+    {
+      "code": "s16",
+      "title": "Service 16",
+      "price": 384.93,
+      "children": []
+    },
+    {
+      "code": "s17",
+      "title": "Service 17",
+      "price": 346.2,
+      "children": []
+    },
+    {
+      "code": "s18",
+      "title": "Service 18",
+      "price": 393.51,
+      "children": []
+    },
+    {
+      "code": "s19",
+      "title": "Service 19",
+      "price": 152.06,
+      "children": []
+    },
+    {
+      "code": "s20",
+      "title": "Service 20",
+      "price": 487.28,
+      "children": []
+    },
+    {
+      "code": "s21",
+      "title": "Service 21",
+      "price": 301.92,
+      "children": []
+    },
+    {
+      "code": "s22",
+      "title": "Service 22",
+      "price": 319.45,
+      "children": []
+    },
+    {
+      "code": "s23",
+      "title": "Service 23",
+      "price": 152.63,
+      "children": []
+    },
+    {
+      "code": "s24",
+      "title": "Service 24",
+      "price": 54.92,
+      "children": []
+    }
+  ],
+  "appointments": [
+    {
+      "id": "a1",
+      "patient_id": "p11",
+      "doctor_id": "d21",
+      "when": "2023-01-01T10:00:00",
+      "status": "canceled"
+    },
+    {
+      "id": "a2",
+      "patient_id": "p18",
+      "doctor_id": "d13",
+      "when": "2023-01-01T11:00:00",
+      "status": "new"
+    },
+    {
+      "id": "a3",
+      "patient_id": "p22",
+      "doctor_id": "d3",
+      "when": "2023-01-01T12:00:00",
+      "status": "done"
+    },
+    {
+      "id": "a4",
+      "patient_id": "p24",
+      "doctor_id": "d11",
+      "when": "2023-01-01T13:00:00",
+      "status": "canceled"
+    },
+    {
+      "id": "a5",
+      "patient_id": "p21",
+      "doctor_id": "d17",
+      "when": "2023-01-01T14:00:00",
+      "status": "canceled"
+    },
+    {
+      "id": "a6",
+      "patient_id": "p24",
+      "doctor_id": "d9",
+      "when": "2023-01-01T15:00:00",
+      "status": "done"
+    },
+    {
+      "id": "a7",
+      "patient_id": "p12",
+      "doctor_id": "d13",
+      "when": "2023-01-01T16:00:00",
+      "status": "canceled"
+    },
+    {
+      "id": "a8",
+      "patient_id": "p8",
+      "doctor_id": "d1",
+      "when": "2023-01-01T17:00:00",
+      "status": "done"
+    },
+    {
+      "id": "a9",
+      "patient_id": "p20",
+      "doctor_id": "d12",
+      "when": "2023-01-01T18:00:00",
+      "status": "canceled"
+    },
+    {
+      "id": "a10",
+      "patient_id": "p3",
+      "doctor_id": "d7",
+      "when": "2023-01-01T19:00:00",
+      "status": "done"
+    },
+    {
+      "id": "a11",
+      "patient_id": "p11",
+      "doctor_id": "d23",
+      "when": "2023-01-01T20:00:00",
+      "status": "canceled"
+    },
+    {
+      "id": "a12",
+      "patient_id": "p13",
+      "doctor_id": "d11",
+      "when": "2023-01-01T21:00:00",
+      "status": "done"
+    },
+    {
+      "id": "a13",
+      "patient_id": "p19",
+      "doctor_id": "d2",
+      "when": "2023-01-01T22:00:00",
+      "status": "done"
+    },
+    {
+      "id": "a14",
+      "patient_id": "p19",
+      "doctor_id": "d13",
+      "when": "2023-01-01T23:00:00",
+      "status": "done"
+    },
+    {
+      "id": "a15",
+      "patient_id": "p11",
+      "doctor_id": "d2",
+      "when": "2023-01-02T00:00:00",
+      "status": "canceled"
+    },
+    {
+      "id": "a16",
+      "patient_id": "p5",
+      "doctor_id": "d23",
+      "when": "2023-01-02T01:00:00",
+      "status": "done"
+    },
+    {
+      "id": "a17",
+      "patient_id": "p6",
+      "doctor_id": "d20",
+      "when": "2023-01-02T02:00:00",
+      "status": "new"
+    },
+    {
+      "id": "a18",
+      "patient_id": "p11",
+      "doctor_id": "d11",
+      "when": "2023-01-02T03:00:00",
+      "status": "canceled"
+    },
+    {
+      "id": "a19",
+      "patient_id": "p21",
+      "doctor_id": "d16",
+      "when": "2023-01-02T04:00:00",
+      "status": "canceled"
+    },
+    {
+      "id": "a20",
+      "patient_id": "p15",
+      "doctor_id": "d14",
+      "when": "2023-01-02T05:00:00",
+      "status": "new"
+    },
+    {
+      "id": "a21",
+      "patient_id": "p4",
+      "doctor_id": "d23",
+      "when": "2023-01-02T06:00:00",
+      "status": "canceled"
+    },
+    {
+      "id": "a22",
+      "patient_id": "p15",
+      "doctor_id": "d3",
+      "when": "2023-01-02T07:00:00",
+      "status": "done"
+    },
+    {
+      "id": "a23",
+      "patient_id": "p17",
+      "doctor_id": "d18",
+      "when": "2023-01-02T08:00:00",
+      "status": "new"
+    },
+    {
+      "id": "a24",
+      "patient_id": "p10",
+      "doctor_id": "d1",
+      "when": "2023-01-02T09:00:00",
+      "status": "canceled"
+    }
+  ],
+  "invoices": [
+    {
+      "id": "i1",
+      "patient_id": "p12",
+      "items": [
+        "s10",
+        "s24",
+        "s15"
+      ],
+      "amount": 921.8299999999999,
+      "insurance": "INS-1"
+    },
+    {
+      "id": "i2",
+      "patient_id": "p7",
+      "items": [
+        "s22",
+        "s15",
+        "s20"
+      ],
+      "amount": 1205.4299999999998,
+      "insurance": null
+    },
+    {
+      "id": "i3",
+      "patient_id": "p14",
+      "items": [
+        "s6",
+        "s11",
+        "s10"
+      ],
+      "amount": 932.74,
+      "insurance": null
+    },
+    {
+      "id": "i4",
+      "patient_id": "p14",
+      "items": [
+        "s8"
+      ],
+      "amount": 363.95,
+      "insurance": "INS-4"
+    },
+    {
+      "id": "i5",
+      "patient_id": "p1",
+      "items": [
+        "s13"
+      ],
+      "amount": 64.11,
+      "insurance": null
+    },
+    {
+      "id": "i6",
+      "patient_id": "p19",
+      "items": [
+        "s19",
+        "s7"
+      ],
+      "amount": 640.0,
+      "insurance": "INS-6"
+    },
+    {
+      "id": "i7",
+      "patient_id": "p8",
+      "items": [
+        "s14",
+        "s15"
+      ],
+      "amount": 481.82,
+      "insurance": "INS-7"
+    },
+    {
+      "id": "i8",
+      "patient_id": "p19",
+      "items": [
+        "s7",
+        "s3"
+      ],
+      "amount": 686.77,
+      "insurance": "INS-8"
+    },
+    {
+      "id": "i9",
+      "patient_id": "p1",
+      "items": [
+        "s23",
+        "s8",
+        "s7"
+      ],
+      "amount": 1004.52,
+      "insurance": null
+    },
+    {
+      "id": "i10",
+      "patient_id": "p16",
+      "items": [
+        "s5",
+        "s21",
+        "s17"
+      ],
+      "amount": 896.22,
+      "insurance": null
+    },
+    {
+      "id": "i11",
+      "patient_id": "p23",
+      "items": [
+        "s21",
+        "s14",
+        "s4"
+      ],
+      "amount": 446.24,
+      "insurance": null
+    },
+    {
+      "id": "i12",
+      "patient_id": "p13",
+      "items": [
+        "s3",
+        "s23"
+      ],
+      "amount": 351.46000000000004,
+      "insurance": null
+    },
+    {
+      "id": "i13",
+      "patient_id": "p22",
+      "items": [
+        "s19",
+        "s22",
+        "s10"
+      ],
+      "amount": 939.72,
+      "insurance": null
+    },
+    {
+      "id": "i14",
+      "patient_id": "p18",
+      "items": [
+        "s15"
+      ],
+      "amount": 398.7,
+      "insurance": "INS-14"
+    },
+    {
+      "id": "i15",
+      "patient_id": "p1",
+      "items": [
+        "s1",
+        "s12"
+      ],
+      "amount": 444.03,
+      "insurance": null
+    },
+    {
+      "id": "i16",
+      "patient_id": "p22",
+      "items": [
+        "s18",
+        "s11",
+        "s10"
+      ],
+      "amount": 1102.45,
+      "insurance": "INS-16"
+    },
+    {
+      "id": "i17",
+      "patient_id": "p10",
+      "items": [
+        "s8",
+        "s21"
+      ],
+      "amount": 665.87,
+      "insurance": null
+    },
+    {
+      "id": "i18",
+      "patient_id": "p11",
+      "items": [
+        "s19",
+        "s9"
+      ],
+      "amount": 517.5,
+      "insurance": null
+    },
+    {
+      "id": "i19",
+      "patient_id": "p6",
+      "items": [
+        "s23",
+        "s19"
+      ],
+      "amount": 304.69,
+      "insurance": null
+    },
+    {
+      "id": "i20",
+      "patient_id": "p2",
+      "items": [
+        "s17",
+        "s13"
+      ],
+      "amount": 410.31,
+      "insurance": null
+    },
+    {
+      "id": "i21",
+      "patient_id": "p18",
+      "items": [
+        "s14"
+      ],
+      "amount": 83.12,
+      "insurance": "INS-21"
+    },
+    {
+      "id": "i22",
+      "patient_id": "p1",
+      "items": [
+        "s22",
+        "s15"
+      ],
+      "amount": 718.15,
+      "insurance": "INS-22"
+    },
+    {
+      "id": "i23",
+      "patient_id": "p10",
+      "items": [
+        "s14",
+        "s11",
+        "s2"
+      ],
+      "amount": 683.85,
+      "insurance": null
+    },
+    {
+      "id": "i24",
+      "patient_id": "p6",
+      "items": [
+        "s22",
+        "s5",
+        "s13"
+      ],
+      "amount": 631.66,
+      "insurance": null
+    }
+  ]
+}
