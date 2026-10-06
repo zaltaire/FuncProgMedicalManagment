@@ -15,10 +15,6 @@ def predict_load(
         if appt_day == day_str:
             counts[appt.doctor_id] = counts.get(appt.doctor_id, 0) + 1
             
-    # Simulate an expensive computation by doing something slow
-    # (In a real scenario, this would be an ML model or complex logic)
-    import time
-    time.sleep(0.5) 
-    
+   
     return tuple(sorted(counts.items()))
 
